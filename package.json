@@ -1,14 +1,14 @@
 {
   "name": "jwplayer.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jwplayer promise implementation for npm package. CommonJS Pattern",
   "main": "build/jwplayer.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build lib/jwplayer.js --out-dir build --no-content-hash"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["jwplayer", "jwplayer.js"],
+  "author": "juanpablocs",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
