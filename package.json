@@ -1,10 +1,11 @@
 {
-  "name": "jwplayer2",
+  "name": "jwplayer.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "lib/jwplayer.js",
+  "description": "Jwplayer promise implementation for npm package. CommonJS Pattern",
+  "main": "build/jwplayer.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build lib/jwplayer.js --out-dir build --no-content-hash"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,14 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   },
+  "bugs": {
+    "url": "https://github.com/juanpablocs/jwplayer.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpablocs/jwplayer.js.git"
+  },
+  "homepage": "https://github.com/juanpablocs/jwplayer.js#readme",
   "browserslist": [
     "last 1 Chrome version"
   ]

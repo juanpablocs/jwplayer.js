@@ -1,9 +1,5 @@
 import jwplayer from './lib/jwplayer';
 
-const videoRef = document.getElementById('player');
-const playerScript = '//content.jwplatform.com/libraries/0P4vdmeO.js';
-const uniqueScriptId = 12121212;
-
 const setup = {
   primary: 'html5',
   autostart: true,
@@ -15,9 +11,10 @@ const setup = {
       name: "jw-skin-glow"
   }
 };
+
 (async () => {
   try {
-    const player = await jwplayer({videoRef, playerScript, uniqueScriptId});
+    const player = await jwplayer('player');
     player.setup(setup);
   }catch(e) {
     console.log('err2', e);

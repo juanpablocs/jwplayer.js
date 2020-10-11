@@ -3,7 +3,7 @@
 Wrapper Promise of jwplayer for npm packages
 
 ```js
-import jwplayer from 'jwplayer2';
+import jwplayer from 'jwplayer.js';
 
 const setup = {
   file: 'URL',
